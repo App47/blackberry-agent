@@ -10,7 +10,7 @@ import org.json.JSONObject;
 /**
  * Static class used to make Logging calls to the Embedded Agent
  */
-class EmbeddedAgentLogger {
+public class EmbeddedAgentLogger {
 
     /**
      * Submits a Log message to the Embedded Agent with a Log Level of 'Debug'

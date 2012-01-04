@@ -12,7 +12,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class UtilConnectionMaker {
+public class UtilConnectionMaker {
 	private static final String GET = HttpConnection.GET;
 	private static final String POST = HttpConnection.POST;
 	private static final String PUT = "PUT";

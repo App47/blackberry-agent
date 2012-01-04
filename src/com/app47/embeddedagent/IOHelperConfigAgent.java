@@ -7,7 +7,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class IOHelperConfigAgent extends IOHelperAgent {
+public class IOHelperConfigAgent extends IOHelperAgent {
 	IOHelperAgent confWriter;
 
 	public IOHelperConfigAgent(String data, boolean update) {

@@ -7,7 +7,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class ServiceEventAgent {
+public class ServiceEventAgent {
 	public static String RESUME = "resume";
 	public static String SEND_EVENT = "send_event";
 	public static String SEND_GENERIC_EVENT = "send_generic_event";

@@ -7,7 +7,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class ObjectAgentLog extends JSONObject {
+public class ObjectAgentLog extends JSONObject {
 
 	// tags - vector of strings
 	public ObjectAgentLog(JSONObject configuration, String sessionID, String level,

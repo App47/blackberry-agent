@@ -1,7 +1,7 @@
 package com.app47.embeddedagent;
 
 
-class HelperEventAgent {
+public class HelperEventAgent {
 
 	// Broadcast Actions for Test Apps
 	public static final String ACTIVE_TIMED_EVENT_ACTION = "com.app47.embeddedagent.ACTIVE_TIMED_EVENTS_UPDATED";

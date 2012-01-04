@@ -7,7 +7,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class ServiceSessionAgent {
+public class ServiceSessionAgent {
 	public final static int RESUME = 202;
 	public final static int PAUSE = 203;
 

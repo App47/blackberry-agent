@@ -5,7 +5,7 @@ import javax.microedition.global.Formatter;
 import net.rim.device.api.i18n.MissingResourceException;
 import net.rim.device.api.i18n.ResourceBundle;
 
-class UtilAgentResourceGetter implements com.app47.embeddedagent.res.AgentResourcesResource {
+public class UtilAgentResourceGetter implements com.app47.embeddedagent.res.AgentResourcesResource {
 	
 	private static ResourceBundle resourceBundle = ResourceBundle.getBundle(
 			BUNDLE_ID, BUNDLE_NAME);

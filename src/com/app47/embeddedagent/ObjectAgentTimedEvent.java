@@ -6,7 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class ObjectAgentTimedEvent extends ObjectAgentEvent {
+public class ObjectAgentTimedEvent extends ObjectAgentEvent {
 	public ObjectAgentTimedEvent(JSONObject event) {
 		super(event);
 	}

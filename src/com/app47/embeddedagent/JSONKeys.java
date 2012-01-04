@@ -1,6 +1,6 @@
 package com.app47.embeddedagent;
 
-final class JSONKeys {
+public final class JSONKeys {
 	public static final String APP_ID = "ApplicationID";
 	public static final String UPDATE_FRQ = "AgentUpdateFrequency";
 	public static final String UPLOAD_DELAY = "UpdateDelay";

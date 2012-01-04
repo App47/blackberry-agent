@@ -7,7 +7,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class IOHelperSessionAgent extends IOHelperAgent {
+public class IOHelperSessionAgent extends IOHelperAgent {
 
 	public static void writeSessionEnd(long time) {
 		String t = String.valueOf(time);

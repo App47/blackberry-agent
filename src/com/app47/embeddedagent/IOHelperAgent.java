@@ -11,7 +11,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class IOHelperAgent {
+public class IOHelperAgent {
 
 	public static final String FILE_SEPARATOR = "/";
 	public static final String FILE_PATH = "file:///store/home/embeddedAgent";

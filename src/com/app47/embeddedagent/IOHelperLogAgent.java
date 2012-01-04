@@ -3,7 +3,7 @@ package com.app47.embeddedagent;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-class IOHelperLogAgent extends IOHelperAgent {
+public class IOHelperLogAgent extends IOHelperAgent {
 
 	public static void writeLogs(JSONArray logs) {
 		writeFile(IOHelperAgent.FILE_PATH + IOHelperAgent.FILE_SEPARATOR

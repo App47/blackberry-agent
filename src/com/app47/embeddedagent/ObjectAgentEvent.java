@@ -10,7 +10,7 @@ import org.json.JSONObject;
 /**
  *
  */
-class ObjectAgentEvent extends JSONObject {
+public class ObjectAgentEvent extends JSONObject {
 	// JSONObject list = new JSONObject();
 
 	public ObjectAgentEvent(JSONObject event) {

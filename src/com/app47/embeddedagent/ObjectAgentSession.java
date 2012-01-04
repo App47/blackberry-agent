@@ -3,7 +3,7 @@ package com.app47.embeddedagent;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-class ObjectAgentSession {
+public class ObjectAgentSession {
 	public final static String UUID = "uuid";
 	public final static String START_TIME = "start_time";
 	public final static String END_TIME = "end_time";

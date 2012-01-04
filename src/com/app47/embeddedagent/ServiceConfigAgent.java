@@ -3,7 +3,7 @@ package com.app47.embeddedagent;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-class ServiceConfigAgent {
+public class ServiceConfigAgent {
 	public final static int REQ_UPDATE = 101;
 	public final static int REQ_APP_ID = 102;
 	public final static int REQ_RES = 103;

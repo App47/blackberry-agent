@@ -11,7 +11,7 @@ import net.rim.device.api.system.WLANInfo;
  * @author bogdan.sara
  *
  */
-class UtilNetworkUtility {
+public class UtilNetworkUtility {
 	
 	public static String getConnectionSuffix() {
 

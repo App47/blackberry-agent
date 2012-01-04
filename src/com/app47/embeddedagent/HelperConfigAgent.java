@@ -4,7 +4,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-class HelperConfigAgent {
+public class HelperConfigAgent {
 
     public static final String SERVER_TIME_EPOCH_OFFSET = "server_time_off";
 

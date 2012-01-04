@@ -15,7 +15,7 @@ import net.rim.device.api.crypto.TripleDESEncryptorEngine;
 import net.rim.device.api.crypto.TripleDESKey;
 
 
-class HelperEnvironmentAgent {
+public class HelperEnvironmentAgent {
 
     public static String getAppVersion() {
             return UtilAgentConstants.agentVersion;

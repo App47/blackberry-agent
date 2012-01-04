@@ -1,6 +1,6 @@
 package com.app47.embeddedagent;
 
-class UtilCommunicationConstants {
+public class UtilCommunicationConstants {
 	public static final String API_URL = "http://invisible-sun.heroku.com";
 	public static final String AGENT = "agent";
 	public static final String APP = "app";

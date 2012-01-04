@@ -1,7 +1,7 @@
 package com.app47.embeddedagent;
 
 
-class HelperSessionAgent {
+public class HelperSessionAgent {
 	public static final long SESSION_ACTIVITY_DELAY = 5000;
 	// Broadcast Actions for Test Apps
 	public static final String SESSION_BROADCAST_ACTION = "com.app47.embeddedagent.SESSIONS_UPDATED";

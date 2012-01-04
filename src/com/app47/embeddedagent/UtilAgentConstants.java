@@ -10,7 +10,7 @@ import javax.microedition.io.file.FileSystemRegistry;
 import net.rim.device.api.system.ApplicationDescriptor;
 import net.rim.device.api.system.DeviceInfo;
 
-class UtilAgentConstants {
+public class UtilAgentConstants {
 	
 	public static final String DEFAULT_UPDATE_FRQ = "0.1";
 	public static final String DEFAULT_UPLOAD_DELAY = "5";
