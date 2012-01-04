@@ -1,0 +1,7 @@
+package com.app47.embeddedagent.res;
+
+res_agent_update#0=0;
+upload_delay#0=1;
+send_device_identifier#0=2;
+endpoint#0=3;
+application_id#0=4;
