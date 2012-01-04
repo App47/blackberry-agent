@@ -146,9 +146,9 @@ public class EmbeddedAgent {
 	      }
 	      
 	      Vector vect = new Vector();
-	      Enumeration enum = configGroup.keys();
-	      while(enum.hasMoreElements()) {
-	    	  vect.addElement(enum.nextElement());
+	      Enumeration ienum = configGroup.keys();
+	      while(ienum.hasMoreElements()) {
+	    	  vect.addElement(ienum.nextElement());
 	      }
 	      
 	      String[] keys = new String[vect.size()];
@@ -164,9 +164,9 @@ public class EmbeddedAgent {
 	        return null;
 	      }
 	      Vector groupsV = new Vector();
-	      Enumeration enum = configGroups.keys();
-	      while(enum.hasMoreElements()) {
-	    	  groupsV.addElement((String)enum.nextElement());
+	      Enumeration ienum = configGroups.keys();
+	      while(ienum.hasMoreElements()) {
+	    	  groupsV.addElement((String)ienum.nextElement());
 	      }
 	      
 	      String[] names = new String[groupsV.size()];
