@@ -22,7 +22,7 @@ public class UtilAgentConstants {
 	public static final String appVersion = ApplicationDescriptor.currentApplicationDescriptor().getVersion();
 	public static final String agentVersion = "1.10.2";
 	//TODO server handling for BB
-	public static final String os = "Android";
+	public static final String os = "Blackberry";
 	public static final String osVersion = DeviceInfo.getSoftwareVersion();
 	public static final String deviceName = DeviceInfo.getDeviceName();
 	public static String deviceCapability;

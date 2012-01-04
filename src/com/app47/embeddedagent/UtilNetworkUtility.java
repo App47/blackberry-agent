@@ -18,7 +18,7 @@ public class UtilNetworkUtility {
 		String connSuffix = null;
 		
 		if (DeviceInfo.isSimulator()) {
-			connSuffix = ";deviceside=false";
+			connSuffix = ";deviceside=true";
 		} else if ((WLANInfo.getWLANState() == WLANInfo.WLAN_STATE_CONNECTED) 
 				&& RadioInfo.areWAFsSupported(RadioInfo.WAF_WLAN)) {
 			connSuffix = ";interface=wifi";
