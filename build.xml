@@ -7,7 +7,7 @@
 
 	<taskdef resource="bb-ant-defs.xml" classpath="lib/bb-ant-tools-1.2.13.jar" />
 	
-	<target name="deploy" depends="build" description="Builds and Deploys Project (installs to simulator)">
+	<target name="deploy" depends="build" description="Builds and deploys code (installs to simulator)">
 		<copy todir="${simulator}" overwrite="true">
 			<fileset dir="dist">
 				<include name="*.cod" />
@@ -18,13 +18,13 @@
 		</copy>
 	</target>
 
-	<target name="clean" description="cleans the dist directory">
+	<target name="clean">
 		<delete dir="target" />
 		<mkdir dir="target/dist" />
 	</target>
 
 	<!-- REQUIRED: you must have JAVA_HOME defined and java/javac in your path -->
-	<target name="build" depends="clean" description="Builds Project">
+	<target name="build" depends="clean" description="Builds App47 library and places everything into target/dist">
 
 		<rapc jdehome="${jdehome}" jdkhome="${java.home}" destdir="target/dist" 
 			  output="app47agent-${version}" quiet="false" verbose="false">
