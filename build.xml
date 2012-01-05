@@ -27,7 +27,7 @@
 	<target name="build" depends="clean" description="Builds App47 library and places everything into target/dist">
 
 		<rapc jdehome="${jdehome}" jdkhome="${java.home}" destdir="target/dist" 
-			  output="app47agent-${version}" quiet="false" verbose="false">
+			  output="app47agent" quiet="false" verbose="false">
 
 			<jdp type="library" title="app47bbagent" vendor="app47" version="1.0" 
 				 description="description" arguments="" systemmodule="false" 
