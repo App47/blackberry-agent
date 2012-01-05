@@ -1,6 +1,10 @@
 # App47 Blackberry Agent
 
-The App47 Blackberry Agent enables realtime analytics for Blackberry Apps. In order to enable ease of integration, simply add this code to your Blackberry project; that is, for now, there is no need to create a JAD file, etc and include it into your project.  
+The App47 Blackberry Agent enables realtime analytics for Blackberry Apps. 
+
+## Building and including in your Blackberry App
+
+To build, you'll need to have Blackberry's JDE installed, Ant, and JAVA_HOME defined. Clone this repository or download the source archive and type `ant`. This will produce a series of Blackberry specific files in `target/dist` -- .cod, .jad, .cso -- these are the files you'll ultimately deploy to a device. What's more, there will be a .jar file in the `target/dist` directory that you can import into your IDE (i.e. Eclipse) so as to facilitate compilation.  
 
 # License
 
