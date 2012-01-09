@@ -2,11 +2,16 @@
 
 The App47 Blackberry Agent enables realtime analytics for Blackberry Apps. 
 
+## Configuration
+
+In order for your Blackberry app to communicate with App47, you'll need to update the `AgentResources.rrc` file with your App's corresponding ID. You can find this ID on the App47 dashboard for your App. Once you've done that, follow the build instructions and you'll be good to go!
+
 ## Building and including in your Blackberry App
 
 To build, you'll need to have Blackberry's JDE installed, Ant, and JAVA_HOME defined. Clone this repository or download the source archive. You'll need to provide a `local.properties` file -- see the default one (aptly named `default.properties`) to see the format. Simply specify the path to a valid JDE installation. 
 
 Then type `ant`. This will produce a series of Blackberry specific files in `target/dist` -- .cod, .jad, .cso -- these are the files you'll ultimately deploy to a device. What's more, there will be a .jar file in the `target/dist` directory that you can import into your IDE (i.e. Eclipse) so as to facilitate compilation.  
+
 
 # License
 
