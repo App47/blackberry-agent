@@ -1,5 +1,5 @@
-application_id#0="4e552727a2f8fd000100006f";
-endpoint#0="http://invisible-sun.heroku.com/";
+application_id#0="<your_app_id>";
+endpoint#0="http://api.app47.mobi/";
 res_agent_update#0="0";
 send_device_identifier#0="true";
 upload_delay#0="0";
