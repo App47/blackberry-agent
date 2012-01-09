@@ -12,6 +12,9 @@ To build, you'll need to have Blackberry's JDE installed, Ant, and JAVA_HOME def
 
 Then type `ant`. This will produce a series of Blackberry specific files in `target/dist` -- .cod, .jad, .cso -- these are the files you'll ultimately deploy to a device. What's more, there will be a .jar file in the `target/dist` directory that you can import into your IDE (i.e. Eclipse) so as to facilitate compilation.  
 
+## Sample App
+
+See our (Sample Blackberry App)[https://github.com/App47/blackberry-agent-example] for more details on how to use the App47 Blackberry Agent.
 
 # License
 
