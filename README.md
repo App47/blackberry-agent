@@ -14,7 +14,7 @@ Then type `ant`. This will produce a series of Blackberry specific files in `tar
 
 ## Sample App
 
-See our (Sample Blackberry App)[https://github.com/App47/blackberry-agent-example] for more details on how to use the App47 Blackberry Agent.
+See our [Sample Blackberry App](https://github.com/App47/blackberry-agent-example) for more details on how to use the App47 Blackberry Agent.
 
 # License
 
